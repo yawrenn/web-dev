@@ -1,0 +1,12 @@
+body{font-family:Diphylleia}
+
+p, a, li {color:navy;}
+
+a:hover{color:darkblue;}
+/*comment*/
+
+ul li {font-style:italic}
+
+.int-link{font-weight:bolder;font-family:serif}
+
+#mail-link {font-size:1.5em}
