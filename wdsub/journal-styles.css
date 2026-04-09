@@ -1,0 +1,160 @@
+body{
+  margin: 0px;
+}
+#preheader{
+  background-color:white
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+  font-family:limelight;
+}
+
+h1{
+  padding:18px 0px 18px;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family:limelight;
+}
+
+
+#nav-menu{
+  display: flex; 
+  flex :1 1 auto;
+  text-align:center;
+  justify-content:space-evenly;
+  position:sticky;
+  top:0px;
+  background-color:rgb(255,255,255,0.8);
+  padding:10px 0px 15px;
+}
+
+div.nav-div{
+  text-align:center;
+  flex-grow: 1;
+  position:relative;
+  top:0px;
+  border-right: solid 1px black
+    
+}
+
+div.nav-div a{
+  display:inline-block;
+  width:100%;
+  padding:10px 0px 15px;
+}
+
+ul.nav-list{
+ display:none;
+  list-style-type:none;
+  padding-left:0px;
+  position:absolute; 
+  background-color:rgb(255, 255, 255, 0.8);
+  width:100%;
+  margin:0px
+
+}
+
+.nav-div:hover{
+  background-color:lightgray;
+  padding-color:lightgray;
+  font-weight:bolder;
+}
+.nav-div:hover .nav-list{
+  display:block
+}
+#nav-shows{
+  border-right:none
+}
+
+.nav-div .nav-list a:hover{
+  background-color: lightgray
+}
+#bg-img{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  z-index:-99;
+}
+.pic-div{
+  float:right;
+  width:30%;
+  border:solid 1px #2f2f2f;
+  padding:10px;
+  margin:10px
+  
+}
+.pic-div img{
+  width:100%
+}
+
+.photo-div {
+  float:left;
+  width:30%;
+  border:solid 1px #2f2f2f;
+  padding:10px;
+    margin-right:10px
+}
+
+.photo-div img{
+  width:100%
+}
+
+.picture-div{
+  float:clear;
+  width:40%;
+  border:solid 1px #2f2f2f;
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto
+ 
+  
+}
+.picture-div img{
+  width:100%
+}
+
+
+
+
+.pic-div p{
+  text-align:center
+}
+.photo-div p{
+  text-align:center
+}
+
+#content-div{
+  margin:0px 15%; 
+  padding:10px;
+  background-color:rgba(155,200,200,0.8)
+ 
+}
+#footer{
+  marign:0px;
+  width:100%;
+  background-color: rgb(40,90,110);
+  color:white;
+  min-height: 100px;
+}
+#address{
+  float:right;
+  margin-right:29%;
+  
+}
+#publish-info{
+  float:left;
+  margin-left:20%; 
+  border-right:solid 1px white; 
+  padding:9px;
+  position:static
+  
+}
+.vertical-bar{
+  
+}
