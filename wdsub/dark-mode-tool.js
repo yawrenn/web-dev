@@ -5,6 +5,7 @@ let isDark=false;
 
 function changeDarkMode(event){
   
+  
   //Change background color
   
   if (isDark) document.body.style.backgroundColor="white";
