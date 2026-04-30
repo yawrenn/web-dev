@@ -18,8 +18,8 @@ function changeDarkMode(event){
   
   
   //Change mode text
-  if (isDark) mode.innerHtML="<p>Dark Mode off</p>";
-  else mode.innerHTML="<p>Dark Mode on</p>";
+  if (isDark) mode.innerHTML="<p>Dark Mode off</p>";
+  else darkOff.innerHTML="<p>Dark Mode on</p>";
   //Toggle isDark
   //if(isDark) isDark=false;
  // else isDark=true;
