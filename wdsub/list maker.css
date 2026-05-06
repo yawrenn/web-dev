@@ -1,0 +1,38 @@
+
+li button{
+  background-color:rgba(0,0,0,0);
+  border:none;
+}
+li{
+  list-style-type:none;
+}
+
+.trash-button{
+  display:none
+}
+li:hover .trash-button{
+  display:inline;
+  curser:pointer
+}
+#list-maker h1{
+  font-size:3em;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:parisienne;
+  
+}
+
+#input-list{
+  text-align:center;
+  font-weight:bold;
+  font-size:medium
+}
+#bg-img{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  z-index:-99;
+  opacity:0.7;
+}
