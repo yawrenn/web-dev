@@ -7,7 +7,7 @@ const UNCHECK_BOX = "<button onclick='checkItem(this)'><svg viewBox='0 0 448 512
 
 let listItem = document.getElementById("list-item");
 let thing = document.getElementById("thing");
-
+document.addEventListener("beforeunload",()=>saveList());
 
 document.addEventListener("keydown", (key) => {  
   if (key.code=="Enter") addItem (key) 
