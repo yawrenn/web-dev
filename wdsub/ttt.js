@@ -24,7 +24,7 @@ function markSymbol(event){
 
 
 function checkWinner(){
-  let isGameOver = false
+  let isGameOver = false;
   
   //check for three in a row
   for(let i =0;i<3; i++){
@@ -60,7 +60,7 @@ function checkWinner(){
   function checkDraw(){
     let isDraw =true;
     for (const elem of squareArr){
-      if(elem.innerText=="")isDraw =false
+      if(elem.innerText=="")isDraw =false;
     }
     
     if (isDraw){
@@ -69,12 +69,14 @@ function checkWinner(){
   }
   }
     function showWinner(){
-      EOGDiv.style.display="block"
+      EOGDiv.style.display="block";
+      winText.innerText="😵"+currentPlayer+"player Wins!😵"
     }
 
 
     function showDraw(){
     EOGDiv.style.display="block";
+    winText.innerText="NO winner. Player Rock Paper Scissors."
   
 }
 function changePlayer(){
