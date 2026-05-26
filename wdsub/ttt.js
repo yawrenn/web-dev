@@ -70,7 +70,7 @@ function checkWinner(){
   }
     function showWinner(){
       EOGDiv.style.display="block";
-      winText.innerText="😵"+currentPlayer+"player Wins!😵"
+      winText.innerText="😵 "+currentPlayer+"player Wins!😵"
     }
 
 
