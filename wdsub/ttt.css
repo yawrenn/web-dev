@@ -1,0 +1,51 @@
+h1{
+ font-family:limelight;
+ text-align:center
+}
+
+body{
+  margin:0px;
+  
+}
+
+div.ttt-square{
+  flex-grow:1;
+  border:3px solid black;
+  border-bottom:0px;
+  min-height:100px;
+  width:30%;
+}
+
+div.ttt-row{
+  display:flex;
+  flex:1 1 auto;
+  justify-content: space-evenly;
+  width:75%;
+  margin:auto
+}
+
+div.ttt-bottom{
+  border-bottom:3px solid black;
+}
+
+#end-of-game{
+  background-color: rgba(0,0,0,0.5);
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  z-index:999;
+  display:none
+}
+
+#end-of-game div{
+  background-color:white;
+  width:50%;
+  max-width:400px;
+  margin: 200px auto;
+  text-align:center;
+  font-size:2rem;
+  border-radius:10px;
+  
+}
