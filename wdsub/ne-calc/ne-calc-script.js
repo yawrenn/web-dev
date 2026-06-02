@@ -1,4 +1,4 @@
-let queryParms = new URLSearchParams(window.location.search);
+let queryParams = new URLSearchParams(window.location.search);
 const P1_STRATS= queryParams.get("p1Strats");
 const P2_STRATS= queryParams.get("p2Strats");
 
